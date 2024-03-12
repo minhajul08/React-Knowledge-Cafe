@@ -1,0 +1,53 @@
+[
+    {
+      "Id": 1,
+      "Cover": "https://i.ibb.co/m4hKpQS/flat.jpg",
+      "Title": "The Mysterious Island",
+      "Author": "Alex Johnson",
+      "Author_img": "https://i.ibb.co/m4hKpQS/flat.jpg",
+      "Posted_Date": "2024-03-12",
+      "Reading_Time": "45",
+      "hashtags": ["#adventure", "#mystery", "#island"]
+    },
+    {
+      "Id": 2,
+      "Cover": "https://i.ibb.co/8Yb0Dt6/organised-arrangement-desk-elements-with-copy-space-23-2148513288.jpg",
+      "Title": "The Phantom Castle",
+      "Author": "Samantha Brown",
+      "Author_img": "https://i.ibb.co/8Yb0Dt6/organised-arrangement-desk-elements-with-copy-space-23-2148513288.jpg",
+      "Posted_Date": "2024-03-11",
+      "Reading_Time": "35",
+      "hashtags": ["#fantasy", "#castle", "#magic"]
+    },
+    {
+      "Id": 3,
+      "Cover": "https://i.ibb.co/wRJqZYk/supplies-black-table-67155-5563.jpg",
+      "Title": "Into the Unknown",
+      "Author": "David Smith",
+      "Author_img": "https://i.ibb.co/wRJqZYk/supplies-black-table-67155-5563.jpg",
+      "Posted_Date": "2024-03-10",
+      "Reading_Time": "50",
+      "hashtags": ["#sciencefiction", "#exploration", "#aliens"]
+    },
+    {
+      "Id": 4,
+      "Cover": "https://i.ibb.co/0Gs4sGN/festive-4.jpg",
+      "Title": "The Forgotten City",
+      "Author": "Emily Watson",
+      "Author_img": "https://i.ibb.co/0Gs4sGN/festive-4.jpg",
+      "Posted_Date": "2024-03-09",
+      "Reading_Time": "30",
+      "hashtags": ["#mystery", "#history", "#urban"]
+    },
+    {
+      "Id": 5,
+      "Cover": "https://i.ibb.co/TmDmJFm/abstract-5.jpg",
+      "Title": "A Tale of Two Worlds",
+      "Author": "Michael Adams",
+      "Author_img": "https://i.ibb.co/TmDmJFm/abstract-5.jpg",
+      "Posted_Date": "2024-03-08",
+      "Reading_Time": "55",
+      "hashtags": ["#fantasy", "#scifi", "#parallelworlds"]
+    }
+  ]
+  
