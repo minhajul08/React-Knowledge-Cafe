@@ -6,7 +6,7 @@
       "Author": "Alex Johnson",
       "Author_img": "https://i.ibb.co/m4hKpQS/flat.jpg",
       "Posted_Date": "2024-03-12",
-      "Reading_Time": "45",
+      "reading_time": 9,
       "hashtags": ["#adventure", "#mystery", "#island"]
     },
     {
@@ -16,7 +16,7 @@
       "Author": "Samantha Brown",
       "Author_img": "https://i.ibb.co/8Yb0Dt6/organised-arrangement-desk-elements-with-copy-space-23-2148513288.jpg",
       "Posted_Date": "2024-03-11",
-      "Reading_Time": "35",
+      "reading_time": 6,
       "hashtags": ["#fantasy", "#castle", "#magic"]
     },
     {
@@ -26,7 +26,7 @@
       "Author": "David Smith",
       "Author_img": "https://i.ibb.co/wRJqZYk/supplies-black-table-67155-5563.jpg",
       "Posted_Date": "2024-03-10",
-      "Reading_Time": "50",
+      "reading_time": 10,
       "hashtags": ["#sciencefiction", "#exploration", "#aliens"]
     },
     {
@@ -36,7 +36,7 @@
       "Author": "Emily Watson",
       "Author_img": "https://i.ibb.co/0Gs4sGN/festive-4.jpg",
       "Posted_Date": "2024-03-09",
-      "Reading_Time": "30",
+      "reading_time":20,
       "hashtags": ["#mystery", "#history", "#urban"]
     },
     {
@@ -46,7 +46,7 @@
       "Author": "Michael Adams",
       "Author_img": "https://i.ibb.co/TmDmJFm/abstract-5.jpg",
       "Posted_Date": "2024-03-08",
-      "Reading_Time": "55",
+      "reading_time": 9,
       "hashtags": ["#fantasy", "#scifi", "#parallelworlds"]
     }
   ]

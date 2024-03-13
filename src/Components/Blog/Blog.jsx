@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 import { FaBookmark } from 'react-icons/fa';
-const Blog = ({blog,handelAddToBookmark}) => {
-    const {Title,Cover,Author,Posted_Date,Author_img,Reading_Time,hashtags} = blog;
+const Blog = ({blog,handelAddToBookmark, handleMarkAsRead}) => {
+    const {Id,Title,Cover,Author,Posted_Date,Author_img,reading_time,hashtags} = blog;
     return (
-        <div className='mb-20'>
+        <div className='mb-20 space-y-4'>
             <img className='w-full mb-8' src={Cover} alt={`Cover picture of the title ${Title}`} />
             <div className='flex justify-between mb-4'>
                 <div className='flex'>
@@ -14,7 +14,7 @@ const Blog = ({blog,handelAddToBookmark}) => {
                     </div>
                 </div>
                 <div>
-                     <span>{Reading_Time}min read</span>
+                     <span>{reading_time}min read</span>
                      <button 
                      onClick={() => handelAddToBookmark (blog)}
                      className='ml-2 text-red-600'>
@@ -27,11 +27,16 @@ const Blog = ({blog,handelAddToBookmark}) => {
                     hashtags.map ((hash, idx) => <span key={idx}><a href="">#{hash}</a></span>)
                 }
             </p>
+            <button
+                onClick={() => handleMarkAsRead(Id,reading_time)}
+                className='text-purple-800 font-bold underline'
+            >Mark As Read</button>
         </div>
     );
 };
 Blog.propTypes ={
     blog: PropTypes.object.isRequired,
-    handelAddToBookmark: PropTypes.func
+    handelAddToBookmark: PropTypes.func,
+    handleMarkAsRead: PropTypes.func
 }
 export default Blog;
